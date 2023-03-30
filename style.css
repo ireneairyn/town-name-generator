@@ -162,7 +162,7 @@ button {
   }
   .logo-link img:hover {
     opacity: 100%;
-    filter: invert(50%) sepia(80%) saturate(100%) hue-rotate(160deg);
+    filter: invert(50%) sepia(80%) saturate(100%) hue-rotate(-70deg);
   }
 
   .background {
