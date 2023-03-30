@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #0097b2;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-image: url("./assets/spanishpueblo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: bottom;
+}
+
+.title {
+  width: 430px;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+button {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  background-color: #3e9dcd;
+  border: white solid 2px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  outline: 6px solid #006c7f;
+  outline-offset: 0px;
+}
+
+.pueblo-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#response {
+  font-family: "Josefin Sans", sans-serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  text-justify: inter-word;
+  text-transform: uppercase;
+  background-color: white;
+  border: solid 6px red;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 30px;
+  max-width: 350px;
+  min-width: 250px;
+}
+
+.border {
+  border: solid 3px white;
+  border-radius: 10px;
+}
+
+.posts {
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-line {
+  border-left: 10px solid rgb(60, 60, 60);
+  border-right: 2px solid rgb(93, 93, 93);
+  height: 100px;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 24px 24px 0 24px;
+  text-align: center;
+}
+
+.pueblo-sign {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.emoji-link {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    z-index: 9999;
+    text-decoration: none;
+  }
+
+  .logo-link {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
+    opacity: 100%;
+
+  }
+ 
+  .logo-link img {
+    width: 35px;
+    height: 35px;
+    opacity: 50%;
+  }
+
+/* Desktop stuff */
+@media (min-width: 768px) {
+  .background {
+    background-position-y: 50%;
+  }
+
+  #response {
+    font-size: 36px;
+    max-width: 400px;
+    min-width: 250px;
+  }
+
+  button {
+    font-size: 20px;
+  }
+
+  button:hover {
+    background-color: red;
+    border: red solid 2px;
+    outline: 6px solid white;
+  }
+
+  .vertical-line {
+    border-left: 16px solid rgb(60, 60, 60);
+    border-right: 4px solid rgb(93, 93, 93);
+    height: 160px;
+    margin-right: 90px;
+    margin-left: 90px;
+  }
+
+  .emoji-link {
+    opacity: 50%;
+  }
+  .emoji-link:hover {
+    opacity: 100%;
+  }
+  .logo-link img:hover {
+    opacity: 100%;
+    filter: invert(50%) sepia(80%) saturate(100%) hue-rotate(160deg);
+  }
+}
