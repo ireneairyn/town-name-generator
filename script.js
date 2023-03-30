@@ -38,6 +38,8 @@ function generatePuebloName() {
     "New ",
     "Old ",
     "Wibble",
+    "Middle",
+
   ];
   const nouns = [
     "",
@@ -74,6 +76,27 @@ function generatePuebloName() {
     "butter",
     "fish",
     "chips",
+    "Mars",
+    "Otter",
+    "Birch",
+    "chest",
+    "nose",
+    "liver",
+    "ear",
+    "nostril",
+    "foot",
+    "nail",
+    "clock",
+    "red",
+    "green",
+    "blue",
+    "yellow",
+    "pink",
+    "white",
+    "purple",
+    "black",
+    "burn",
+    
     
   ];
   const suffix = [
@@ -114,6 +137,15 @@ function generatePuebloName() {
     "stick",
     "bridge",
     "ville",
+    "port",
+    "brook",
+    "pool",
+    "mere",
+    "hall",
+    "wood",
+    "hampton",
+    "ter",
+    "ington",
   ];
   let randomPrefix, randomNoun, randomSuffix;
 
