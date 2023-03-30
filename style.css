@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100%;
-  background-color: #0097b2;
+  background-color: #B20050;
 }
 
 header {
@@ -16,7 +16,7 @@ header {
   right: 0;
   bottom: 0;
   z-index: -1;
-  background-image: url("./assets/spanishpueblo.png");
+  background-image: url("./assets/englishtown.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -32,14 +32,14 @@ header {
 button {
   font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
-  background-color: #3e9dcd;
+  background-color: #cd3e5f;
   border: white solid 2px;
   border-radius: 30px;
   color: white;
   font-weight: bold;
   cursor: pointer;
   padding: 10px;
-  outline: 6px solid #006c7f;
+  outline: 6px solid #B20050;
   outline-offset: 0px;
 }
 
@@ -57,7 +57,7 @@ button {
   text-justify: inter-word;
   text-transform: uppercase;
   background-color: white;
-  border: solid 6px red;
+  border: solid 6px black;
   border-radius: 8px;
   padding: 8px;
   font-size: 30px;
@@ -140,8 +140,8 @@ button {
   }
 
   button:hover {
-    background-color: red;
-    border: red solid 2px;
+    background-color: rgb(68, 145, 5);
+    border: rgb(68, 145, 5) solid 2px;
     outline: 6px solid white;
   }
 

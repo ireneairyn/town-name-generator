@@ -1,10 +1,10 @@
 # pueblo-name-generator 🏠️
 
-Silly project to generate Spanish pueblo names!
+Silly project to generate English town names!
 
 ## Check it out 👀
 
-*  Click [here](https://ireneairyn.github.io/pueblo-name-generator/)!
+*  Click [here](https://ireneairyn.github.io/town-name-generator/)!
 
 ## Built With 🛠️
 
