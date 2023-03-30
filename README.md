@@ -1,4 +1,4 @@
-# pueblo-name-generator 🏠️
+# town-name-generator 🏠️
 
 Silly project to generate English town names!
 
