@@ -21,6 +21,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-position-y: bottom;
+  background-position-x: -220px;
 }
 
 .title {
@@ -162,5 +163,9 @@ button {
   .logo-link img:hover {
     opacity: 100%;
     filter: invert(50%) sepia(80%) saturate(100%) hue-rotate(160deg);
+  }
+
+  .background {
+    background-position-x: 0;
   }
 }
